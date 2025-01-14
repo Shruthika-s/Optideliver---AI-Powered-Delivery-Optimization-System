@@ -1,0 +1,1 @@
+export { MapWrapper as DeliveryMap } from './MapWrapper';

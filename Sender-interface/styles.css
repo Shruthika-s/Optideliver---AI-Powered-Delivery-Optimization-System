@@ -1,0 +1,100 @@
+/* .dashboard-buttons {
+    margin: 20px;
+}
+
+.dashboard-buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.dashboard-buttons button:hover {
+    background-color: #0056b3;
+}  */
+
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Global styles */
+:root {
+  --india-post-red: #E52D27;
+  --india-post-orange: #FF6B35;
+  --india-post-dark: #2C3E50;
+  --india-post-light: #FFF5E6;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Dashboard buttons container */
+.dashboard-buttons {
+  margin: 20px;
+  background: linear-gradient(135deg, var(--india-post-red), var(--india-post-orange));
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+.dashboard-buttons button {
+  padding: 12px 24px;
+  margin-right: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: white;
+  color: var(--india-post-red);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-buttons button:hover {
+  background-color: var(--india-post-light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Navigation styles */
+nav {
+  background: linear-gradient(to right, var(--india-post-red), var(--india-post-orange));
+  color: white;
+}
+
+nav h1 {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Card styles */
+.bg-white {
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Status badges */
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.status-badge.scheduled {
+  background-color: var(--india-post-light);
+  color: var(--india-post-orange);
+}
+
+.status-badge.pending {
+  background-color: #FEF3C7;
+  color: #D97706;
+}
