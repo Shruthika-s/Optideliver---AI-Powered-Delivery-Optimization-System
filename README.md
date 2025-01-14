@@ -8,48 +8,6 @@ The **OptiDeliver** is a comprehensive solution designed to optimize delivery ro
 - **Postman App**: An application for delivery personnel to view and update delivery statuses.
 - **Route Optimization Dashboard**: A dashboard for optimizing delivery routes and tracking delivery metrics.
 
-## Project Structure
-
-```markdown
-├── Dataset.csv
-├── Finale OptiDeliver_Infinitely Innovative_SIH-2024_final.pptx
-├── Postman-app/
-│   └── project/
-│       ├── .bolt/
-│       ├── .env
-│       ├── .gitignore
-│       ├── eslint.config.js
-│       ├── index.html
-│       └── src/
-├── prediction.ipynb
-├── Route-optimization-dashboard/
-│   └── route/
-│       └── project/
-│           ├── .bolt/
-│           ├── .env
-│           ├── .gitignore
-│           ├── index.html
-│           └── src/
-├── Sender-interface/
-│   ├── .bolt/
-│   ├── .env
-│   ├── .gitignore
-│   ├── dashboard.js
-│   ├── eslint.config.js
-│   ├── index.html
-│   ├── package.json
-│   ├── postcss.config.js
-│   ├── public/
-│   ├── src/
-│   ├── styles.css
-│   ├── tailwind.config.js
-│   ├── tsconfig.app.json
-│   ├── tsconfig.json
-│   ├── tsconfig.node.json
-│   └── vite.config.ts
-└── Survey Responses.xlsx
-```
-
 ## Components
 
 ### Sender Interface
@@ -154,7 +112,7 @@ We welcome contributions to improve the India Post Delivery System! Please follo
 
 ### Co-Owners
 
-### [Shruthika Sunku](https://github.com/shruthika-s)
+### [Rishit Sura](https://github.com/rishitsura)
 ### [Suhas Uppala](https://github.com/Suhas-Uppala)
 ### [Sujay Nimmagadda](https://github.com/sujaynsv)
 ### [Yaswanth Jonnala](https://github.com/yaswanthjonnala)
